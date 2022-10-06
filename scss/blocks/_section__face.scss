@@ -1,0 +1,106 @@
+.face {
+   padding: 150px 150px 0 0;
+}
+
+.grid__container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+
+   img {
+      padding: 0;
+   }
+
+   hr {
+      width: 350px;
+      height: 1px;
+   }
+
+   h2 {
+      font-family: 'Nova';
+      margin-top: 80px;
+      padding: 0;
+   }
+
+   p {
+      margin-top: 50px;
+      padding: 0;
+   }
+
+   button {
+      width: 202px;
+      height: 48px;
+      margin-top: 50px;
+
+      a {
+         text-decoration: none;
+         color: black;
+         font-size: 12px;
+         text-transform: uppercase;
+      }
+   }
+}
+
+//  =============== RESPONSIVE =================
+
+@media #{$media-tablet} {
+
+   .grid__container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+
+      img {
+         padding: 0;
+      }
+
+      hr {
+         width: 350px;
+         height: 1px;
+      }
+
+      h2 {
+         font-family: 'Nova';
+         margin-top: 80px;
+         padding: 0;
+      }
+
+      p {
+         margin-top: 50px;
+         padding: 0;
+      }
+
+      button {
+         width: 202px;
+         height: 48px;
+         margin-top: 50px;
+
+         a {
+            text-decoration: none;
+            color: black;
+            font-size: 12px;
+            text-transform: uppercase;
+         }
+      }
+   }
+
+
+}
+
+@media #{$media-mobile} {
+
+   .grid__container {
+      margin-top: 0;
+      display: block;
+
+      hr {
+         margin-top: 30px;
+      }
+
+      h2 {
+         width: 120px;
+      }
+
+      p {
+         width: 311px;
+      }
+   }
+}

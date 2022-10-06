@@ -1,0 +1,82 @@
+footer {
+   width: 100%;
+   height: 80px;
+   display: flex;
+   margin-top: 150px;
+   align-items: center;
+   justify-content: space-between;
+   background-color: $grayish__blue;
+
+   div {
+      width: 1200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      ul {
+         display: flex;
+         justify-content: space-between;
+         list-style: none;
+         
+         a {
+            color: #fff;
+            text-decoration: none;
+         }
+
+         a:hover {
+            color: $link__hover
+         }
+
+         a:active {
+            color: $link__active;
+         }
+
+
+      }
+   }
+}
+
+// =========== RESPONSIVE ===============
+
+@media #{$media-mobile} {
+
+   footer {
+      width: 375px;
+      height: 354px;
+      text-align: center;
+
+      div {
+         width: 1200px;
+         display: block;
+
+         ul {
+            display: block;
+            list-style: none;
+            text-align: center;
+            margin-top: 40px;
+
+            li {
+               margin-top: 32px;
+            }
+
+            a {
+               color: #fff;
+               text-decoration: none;
+            }
+
+            a:hover {
+               color: $link__hover
+            }
+
+            a:active {
+               color: $link__active;
+            }
+         }
+
+         img {
+            margin: 30px -15px 0 -10px;
+         }
+
+      }
+   }
+}

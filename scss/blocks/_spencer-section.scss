@@ -1,0 +1,140 @@
+.spencer-section {
+   width: 100%;
+   height: 600px;
+   margin: 54px 35px;
+   padding: 243px 0 0 0;
+   background-repeat: no-repeat;
+   background-image: url(../../images/main-bg.png);
+
+   div {
+      width: 445px;
+      height: 357px;
+      background-color: #FAFAFA;
+      padding: 40px 0;
+
+      h2 {
+         width: 390px;
+         font-family: 'Nova';
+         font-size: 45px;
+         padding: 0;
+      }
+
+      img {
+         width: 60px;
+         height: 60px;
+         background-color: #000000;
+         position: absolute;
+         margin-top: 29px;
+      }
+
+      img:hover {
+         color: #fff;
+         background-color: $btn__hover;
+      }
+
+      img:active {
+         color: #fff;
+         background-color: $btn__active;
+      }
+
+      button {
+         border: none;
+         width: 200px;
+         height: 60px;
+         color: #fff;
+         margin: 29px 0 0 53px;
+         background-color: #0c161f;
+      }
+
+      button:hover {
+         background-color: $btn__hover;
+      }
+
+      button:active {
+         background-color: $btn__active;
+      }
+   }
+}
+
+// ============ RESPONSIVE ===========
+
+@media #{$media-tablet} {
+   .spencer-section {
+      width: 100%;
+      height: 600px;
+      margin: 54px 35px;
+      padding: 243px 0 0 0;
+      background-repeat: no-repeat;
+      background-image: url(../../images/footerlogo-mobile.jpg);
+
+      div {
+         width: 445px;
+         height: 357px;
+         background-color: #FAFAFA;
+         padding: 40px 0;
+
+         h2 {
+            width: 390px;
+            font-family: 'Nova';
+            font-size: 45px;
+            padding: 0;
+         }
+
+         img {
+            width: 60px;
+            height: 60px;
+            background-color: #000000;
+            position: absolute;
+            margin-top: 29px;
+         }
+
+         img:hover {
+            color: #fff;
+            background-color: $btn__hover;
+         }
+
+         img:active {
+            color: #fff;
+            background-color: $btn__active;
+         }
+
+         button {
+            border: none;
+            width: 200px;
+            height: 60px;
+            color: #fff;
+            margin: 29px 0 0 53px;
+            background-color: #0c161f;
+         }
+
+         button:hover {
+            background-color: $btn__hover;
+         }
+
+         button:active {
+            background-color: $btn__active;
+         }
+      }
+   }
+
+}
+
+@media #{$media-mobile} {
+   .spencer-section {
+      background-image: url(../../images/main-mobile.svg);
+      background-position-x: 50%;
+
+      div {
+         width: 311px;
+         height: 168px;
+         margin: auto;
+         background-color: transparent;
+
+         h2 {
+            width: 310px;
+            font-size: 35px;
+         }
+         
+      }
+   }
+}

@@ -1,0 +1,166 @@
+.contact__section {
+
+   hr {
+      margin-top: 94px;
+   }
+
+   .flex__div {
+      margin-top: 48px;
+      display: flex;
+
+      h2 {
+         width: 200px;
+      }
+
+      p {
+         width: 635px;
+      }
+
+      img {
+         padding: 24px 0 0 0px;
+      }
+   }
+
+   h2 {
+      font-family: 'Nova';
+   }
+}
+
+// ================= SECTION__INPUT START ===============
+
+.section__input {
+
+   hr {
+      margin-top: 48px;
+   }
+
+   .input__div {
+      margin-top: 48px;
+      display: flex;
+      justify-content: space-between;
+      padding: 0;
+
+
+      h2 {
+         padding: 0;
+         font-family: 'Nova';
+      }
+
+      button {
+         border: none;
+         color: #fff;
+         background-color: $dark__blue;
+      }
+
+      button:hover {
+         background-color: $btn__hover;
+      }
+
+      button:active {
+         background-color: $btn__active;
+      }
+
+
+   }
+
+   input {
+      margin-top: 8px;
+      width: 550px;
+      height: 48px;
+      border: none;
+      background-color: silver;
+   }
+
+   .input {
+      width: 550px;
+      height: 96px;
+      padding-bottom: 40px;
+   }
+
+   .b {
+      padding: 0;
+      margin-top: 24px;
+      display: block;
+   }
+}
+
+// ================= SECTION__INPUT END ================
+
+@media #{$media-mobile} {
+   .flex__div {
+      margin-top: 48px;
+      display: flex;
+
+      h2 {
+         width: 200px;
+      }
+
+      p {
+         width: 635px;
+      }
+
+      img {
+         padding: 24px 0 0 0px;
+      }
+   }
+
+   h2 {
+      font-family: 'Nova';
+   }
+}
+
+
+.section__input {
+
+   hr {
+      margin-top: 48px;
+   }
+
+   .input__div {
+      margin-top: 48px;
+      display: block;
+      padding: 0;
+      
+
+      h2 {
+         padding: 0;
+         font-family: 'Nova';
+      }
+
+      button {
+         border: none;
+         color: #fff;
+         background-color: $dark__blue;
+      }
+
+      button:hover {
+         background-color: $btn__hover;
+      }
+
+      button:active {
+         background-color: $btn__active;
+      }
+
+
+   }
+
+   input {
+      margin-top: 8px;
+      width: 550px;
+      height: 48px;
+      border: none;
+      background-color: silver;
+   }
+
+   .input {
+      width: 550px;
+      height: 96px;
+      padding-bottom: 40px;
+   }
+
+   .b {
+      padding: 0;
+      margin-top: 24px;
+      display: block;
+   }
+}

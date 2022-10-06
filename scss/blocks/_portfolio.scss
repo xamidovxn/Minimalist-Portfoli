@@ -1,0 +1,186 @@
+html {
+   scroll-behavior: smooth;
+}
+
+.section__cards {
+
+   .cards__div {
+      margin-top: 94px;
+      display: flex;
+   }
+
+   hr {
+      display: none;
+      margin: 0 auto;
+      width: 310px;
+      height: 1px;
+   }
+
+   .Manage__hr {
+      display: none;
+      margin-top: 40px;
+   }
+
+   div {
+
+      h2 {
+         margin-top: 103px;
+         font-family: 'Nova';
+      }
+
+      p {
+         margin-top: 28px;
+         width: 350px;
+      }
+   }
+
+   img {
+      width: 450px;
+      height: 450px;
+   }
+}
+
+button {
+   margin: 41px 20px;
+   width: 175px;
+   height: 48px;
+}
+
+// ============ SECTION__CARDS START ===============
+
+.card__second {
+   margin-top: 80px;
+   display: flex;
+
+   .Bookmark__hr {
+      display: none;
+      margin-top: 40px;
+   }
+}
+
+
+// ============ SECTION__CARDS END ===============
+
+
+// ============ SECTION__THIRD START ===============
+
+.card__third {
+   margin-top: 80px;
+   display: flex;
+
+   .insure__hr {
+      display: none;
+      margin-top: 40px;
+   }
+}
+
+// ============ SECTION__THIRD END ===============
+
+// ============ SECTION__FOURTH START ===============
+
+.card__fourth {
+   margin-top: 80px;
+   display: flex;
+
+   .fylo__hr {
+      display: none;
+      margin-top: 40px;
+   }
+}
+
+a {
+   padding: 0;
+}
+
+// ============ SECTION__FOURTH END ===============
+
+// ================ RESPONSIVE ===================
+
+
+@media #{$media-mobile} {
+
+   .nav {
+      .nav__ul {
+         display: none;
+      }
+
+      .menu {
+         position: relative;
+         left: 250px;
+         display: block;
+      }
+   }
+
+   .section__cards {
+
+      .cards__div {
+         margin-top: 50px;
+         margin-left: -30px;
+         display: block;
+      }
+
+      hr {
+         display: none;
+         margin: 0 auto;
+         width: 310px;
+         height: 1px;
+      }
+
+      .Manage__hr {
+         display: none;
+         margin-top: 40px;
+      }
+
+      div {
+
+         h2 {
+            margin-top: 50px;
+            font-family: 'Nova';
+         }
+
+         p {
+            margin-top: 28px;
+            width: 350px;
+         }
+      }
+
+      img {
+         width: 450px;
+         height: 450px;
+      }
+   }
+
+   .card__second {
+      margin-top: 50px;
+      margin-left: -50px;
+      display: block;
+
+      .Bookmark__hr {
+         display: none;
+         margin-top: 40px;
+      }
+   }
+
+   .card__third {
+      margin-top: 80px;
+      margin-left: -50px;
+      display: block;
+
+      .insure__hr {
+         display: none;
+         margin-top: 40px;
+      }
+   }
+
+   .card__fourth {
+      margin-top: 80px;
+      margin-left: -50px;
+      display: block;
+
+      .fylo__hr {
+         display: none;
+         margin-top: 40px;
+      }
+   }
+
+}

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.min.css">
+    <title>Minimalist Portfolio</title>
+</head>
+
+<body style="background-color: #F2F2F2; font-family: 'Public Sans';">
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="#"><img src="./images/portfolio-logo.svg" alt="img"></a>
+                
+                <ul class="nav__ul">
+                    <li class="nav__ul-list"><a class="nav__ul-link" href="#">HOME</a></li>
+                    <li class="nav__ul-list"><a class="nav__ul-link" href="portfolio.html" target="_blank">PORTFOLIO</a></li>
+                    <li class="nav__ul-list"><a class="nav__ul-link" href="contact.html" target="_blank">CONTACT ME</a></li>
+                </ul>
+                <img class="menu" src="./images/menu.svg" alt="img">
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="spencer-section">
+                <div>
+                    <h2>Hey, I’m Alex Spencer and I love building beautiful websites</h2>
+
+                    <img src="./images/btn-img.svg" alt="img">
+                    <button>ABOUT ME</button>
+                </div>
+            </section>
+        </div>
+
+
+        <section class="face">
+            <div class="container">
+                <div class="grid__container">
+
+                    <picture>
+                        <source class="mobile__img"
+                          media="(max-width:375px)"
+                          srcset="./images/face-mobile.jpg"
+                        />
+                        <source media="(max-width: 768px)"
+                          srcset="./images/face-tablet.jpg"
+                        />
+                        <img
+                          src="./images/half-face.png"
+                          alt="Flowers"
+                          style="width: auto"
+                        />
+                      </picture>
+
+                    <div class="grid__div">
+                        <hr>
+                        <h2>About Me</h2>
+                        <p>I’m a junior front-end developer looking for a new role in an exciting company. I focus on
+                            writing accessible HTML, using modern CSS practices and writing clean JavaScript. When
+                            writing JavaScript code, I mostly use React, but I can adapt to whatever tools are required.
+                            I’m based in London, UK, but I’m happy working remotely and have experience in remote teams.
+                            When I’m not coding, you’ll find me outdoors. I love being out in nature whether that’s
+                            going for a walk, run or cycling. I’d love you to check out my work.</p>
+                        <button><a href="portfolio.html" target="_blank">Go to portfolio</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section__project">
+            <div class="container">
+                <div>
+                    <h2>
+                        Interested in doing a project together?
+                    </h2>
+
+                    <hr>
+
+                    <button>
+                        <a href="contact.html" target="_blank">CONTACT ME</a>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <a href="#"><img class="footer__div" src="./images/footer-logo.svg" alt="img">
+                </a>
+
+                <ul class="footer__ul">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="portfolio.html" target="_blank">PORTFOLIO</a></li>
+                    <li><a href="contact.html" target="_blank">CONTACT ME</a></li>
+                </ul>
+      
+                <a href="https://github.com/" target="_blank"><img src="./images/Path.svg" alt="img">
+                </a>
+       
+                <a href="https://twitter.com/" target="_blank"><img src="./images/twitter.svg" alt="img">
+                </a>
+       
+                <a href="https://www.linkedin.com/" target="_blank"><img src="./images/in.svg" alt="img">
+                </a>
+      
+            </div>
+        </footer>
+
+
+    </main>
+
+</body>
+
+</html>
